@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Grid Art</title>
+        <meta name="description" content="Piet Mondrian's "Composition C" recreated using CSS grid">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header role="banner" class="header">
+            <h1>Composition CSS Grid</h1>
+        </header>
+        <div class="wrapper">
+            <div class="red"></div>
+            <div class="white" id="top-right"></div>
+            <div class="white" id="middle-left"></div>
+            <div class="white" id="middle-right"></div>
+            <div class="bottom-left-grid">
+                <div class="yellow"></div>
+                <div class="white" id="bottom-left"></div>
+            </div>
+            <div class="bottom-right-grid">
+                <div class="middle-right-grid">
+                    <div class="blue"></div>
+                    <div class="white" id="bottom-middle"></div>
+                </div>
+                <div class="white" id="bottom-right"></div>
+            </div>
+        </div>         
+    </body>
+</html>
